@@ -1,0 +1,14 @@
+body {
+    background-color: #673148;
+    color: white;
+};
+.logo {
+    background-color: #A1C2AF;
+    color: black;
+};
+.nav {
+    display: none;
+}
+.mobile-menu {
+    display: none;
+}
