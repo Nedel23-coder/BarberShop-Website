@@ -340,7 +340,6 @@ const renderServices = () => {
 
 // ----- Feature Calls -----
 renderFeatures();
-// renderFeaturesMap();
 renderNavigation();
 renderServices();
 
