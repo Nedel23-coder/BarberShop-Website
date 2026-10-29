@@ -235,20 +235,20 @@ const getSlotsForDate = (year, month, day) => {
             // ----- Month Navigation (previous / next Month buttons) ----
             if (prevMonthBtn) {
                 prevMonthBtn.addEventListener("click", () => {
-                    currentMonth--;
+                    currentMonth--; // decreases month by one
                     if (currentMonth < 0) {
                         currentMonth = 11;
-                        currentYear--;
+                        currentYear--; // decreases year by one
                     }
                     renderCalendar();
                 });
             }
             if (nextMonthBtn) {
                 nextMonthBtn.addEventListener("click", () => {
-                    currentMonth++;
+                    currentMonth++; // increases month by one
                     if (currentMonth > 11) {
                         currentMonth = 0;
-                        currentYear++;
+                        currentYear++; // increase year by one
                     }
                     renderCalendar();
                 });
