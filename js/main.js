@@ -339,7 +339,7 @@ const renderServices = () => {
 // DOM rendering        UI generation
 
 // ----- Feature Calls -----
-renderFeatures();
+// renderFeatures();
 renderNavigation();
 renderServices();
 
